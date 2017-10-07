@@ -1,8 +1,8 @@
 /* CSS Document */
 
-h1 {
+h1.title{
   text-align: left;
-  font-size: 16px;
+  font-size: 30px;
   color: maroon;
 }
 
@@ -11,4 +11,32 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+div.width {
+  max-width: 800px;
+  margin-right: 90px;
+  margin-left: 55px;
+  float: left;
+}
+
+div.h2width {
+  max-width: 220px;
+  margin: 120px 50px 50px;
+  float: bottom;
+  border-right-style: dotted;
+  border-color: grey;
+  border-size: 20px;
+}
+
+div#image{
+	position: relative;
+	transform: rotate(355deg);
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+#image img{
+	position:absolute;
+	top:50px;
+	right:30px;
+	box-shadow: -10px -10px 100px 4px rgba(0, 0, 0, 0.4):	
+}
 
