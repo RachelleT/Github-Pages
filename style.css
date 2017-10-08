@@ -8,7 +8,7 @@ h1.title{
 
 body {
   background-color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Comic Sans MS', sans-serif;
 }
 
 div.width {
@@ -18,25 +18,187 @@ div.width {
   float: left;
 }
 
-div.h2width {
-  max-width: 220px;
-  margin: 120px 50px 50px;
-  float: bottom;
+#leftColumn {
+  width: 300px;
+  height: 100px;
+  float: left;
+  padding: 10px;
+}
+
+#cleftColumn {
+  width: 200px;
+  height: 50px;
+  float: left;
+  text-align: right;
+  margin-left: 30px;
+}
+
+#newleftColumn {
+  width: 200px;
+  height: 50px;
+  float: left;
+  text-align: right;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+#rleftColumn {
+  width: 200px;
+  height: 50px;
+  float: left;
+  text-align: right;
+}
+
+#hleftColumn {
+  margin: 10px;
+  width: 215px;
+  height: 100px;
+  float: left;
+  padding: 10px;
+  text-align: left;
   border-right-style: dotted;
   border-color: grey;
-  border-size: 20px;
+  border-size: 5px;
 }
+
+#refleftColumn {
+  margin: 10px;
+  width: 215px;
+  height: 100px;
+  float: left;
+  padding: 10px;
+  text-align: left;
+  border-right-style: dotted;
+  border-color: grey;
+  border-size: 5px;
+}
+#wleftColumn {
+  width: 225px;
+  height: 100px;
+  float: left;
+  padding: 10px;
+  border-right-style: dotted;
+  border-color: grey;
+  border-size: 5px;
+  text-align:left;
+}
+
+#tleftColumn {
+  width: 340px;
+  height: 80px;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+#leftColumn2 {
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  float: bottom;
+  padding: 10px;
+  background-color: green;
+}
+
+#sColumn {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  background-color: red;
+  float: right;
+}
+
+#floatdiv{
+  clear:left;
+  float: left;
+}
+
+div.width2 {
+  max-width: 800px;
+  margin-right: 90px;
+  margin-left: 55px;
+  float: bottom;
+}
+
+#left {
+  float: left;
+}
+
+
+div.h2width {
+  max-width: 800px;
+  margin: 120px 50px 50px;
+  float: bottom;
+}
+
+#centeralign {
+  text-align: center;
+}
+
+#vertical {
+  border-right-style: dotted;
+  border-color: grey;
+  border-size: 5px;
+  text-align: center;
+  float: center;
+  margin: 10px;
+  padding: 10px;
+  width: 400px:
+}
+
+#svertical {
+  border-right-style: dotted;
+  border-color: grey;
+  border-size: 5px;
+  text-align: center;
+  width: 600px:
+  float: center;
+  margin: 45px;
+  padding: 45px;
+}
+
+#vertical2 {
+  border-right-style: dotted;
+  border-color: grey;
+  margin: 10px;
+  padding: 10px;
+  border-size: 5px;
+  text-align: center;
+  float: left;
+  width: 256px;
+  height: 100px
+  background-color:red;
+}
+
+#bottom {
+  float: bottom;
+  width: 800px;
+  height: 50px;
+} 
 
 div#image{
 	position: relative;
-	transform: rotate(355deg);
-	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	transform: rotate(356deg);
 }
 
 #image img{
 	position:absolute;
 	top:50px;
-	right:30px;
-	box-shadow: -10px -10px 100px 4px rgba(0, 0, 0, 0.4):	
+	right:50px;
 }
 
+#largebox {
+  width:800px;
+  height: 350px;
+  background-color:green:
+  float:bottom;
+}
+
+#emptydiv { 
+  float: bottom;
+  width: 800 px;
+  height: 50px;
+}
+
+h2 {
+  font-style: italic;
+}
